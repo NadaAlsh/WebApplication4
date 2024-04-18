@@ -1,0 +1,12 @@
+﻿
+
+<h2>Blog List</h2>
+
+<ul>
+    @foreach (var blog in Model)
+    {
+        <li>
+            @blog.Name - @blog.URL
+        </li>
+    }
+</ul>
